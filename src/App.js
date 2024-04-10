@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './components/templates/login';
 import Home from './components/templates/Home';
-import ViewArticleMaker from './components/templates/ViewArticleMaker';
+import LaboratorioMaker from './components/templates/ViewArticleMaker';
 import Users from './components/templates/Users';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LoginLayout />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/view-article-maker" element={<ViewArticleMaker />} /> 
+        <Route path="/view-article-maker" element={<LaboratorioMaker />} /> 
         <Route path="/users" element={<Users />} />
       </Routes>
     </Router>
